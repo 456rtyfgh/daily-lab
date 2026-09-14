@@ -1,0 +1,65 @@
+name: daily project
+
+# 기본 경로는 Cowork 스케줄 작업이다.
+# 이 워크플로는 백업용이며 수동 실행만 된다.
+# 매일 자동으로 돌리려면: Secrets 에 ANTHROPIC_API_KEY 를 넣고 schedule 주석을 풀 것.
+on:
+  # schedule:
+  #   - cron: '10 0 * * *'    # KST 09:10
+  #   - cron: '10 13 * * *'   # KST 22:10 (아침 실패 시 보정)
+  workflow_dispatch:
+
+concurrency:
+  group: daily-project
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 오늘 이미 만들었는지 확인
+        id: guard
+        run: |
+          TODAY=$(TZ=Asia/Seoul date +%F)
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          if node -e "const h=require('./data/history.json');process.exit(h.some(x=>x.date===process.argv[1])?0:1)" "$TODAY"; then
+            echo "done=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "done=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 생성 + 푸시
+        if: steps.guard.outputs.done == 'false'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_OWNER: ${{ github.repository_owner }}
+          GIT_NAME: ${{ github.repository_owner }}
+          GIT_EMAIL: ${{ github.repository_owner }}@users.noreply.github.com
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          TZ_OFFSET_HOURS: '9'
+        run: node generator/publish.mjs | tee run.log
+
+      - name: 요약
+        if: steps.guard.outputs.done == 'false' && always()
+        run: { echo '```'; tail -40 run.log 2>/dev/null || echo none; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 인덱스 커밋
+        if: steps.guard.outputs.done == 'false'
+        run: |
+          git config user.name  "${{ github.repository_owner }}"
+          git config user.email "${{ github.repository_owner }}@users.noreply.github.com"
+          git add data/history.json README.md
+          git diff --cached --quiet || { git commit -m "log: ${{ steps.guard.outputs.today }}"; git pull --rebase --autostash origin "$GITHUB_REF_NAME"; git push; }

@@ -1,0 +1,15 @@
+{
+  "name": "daily-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "매일 하나씩 진짜로 돌아가는 미니 프로젝트를 만들어 새 repo로 올린다",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dry": "node generator/generate.mjs --dry",
+    "gen": "node generator/generate.mjs",
+    "publish": "node generator/publish.mjs",
+    "publish:dry": "DRY_RUN=1 node generator/publish.mjs"
+  }
+}
