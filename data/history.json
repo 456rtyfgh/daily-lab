@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "date": "2026-09-14",
+    "slug": "verlet-orbits-ascii",
+    "title": "세 몸이 그리는 8자 — ASCII N-body 시뮬레이터",
+    "pitch": "N-body gravity integrated with velocity Verlet, rendered entirely as ASCII art. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/verlet-orbits-ascii",
+    "lang": "javascript",
+    "combo": "물리 시뮬레이션|cli|출력이 전부 ASCII 아트",
+    "kind": "cli",
+    "source": "cowork",
+    "verified": true
+  }
+]
