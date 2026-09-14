@@ -10,5 +10,17 @@
     "kind": "cli",
     "source": "cowork",
     "verified": true
+  },
+  {
+    "date": "2026-09-14",
+    "slug": "ant-lrrrrrllr-7q",
+    "title": "개미 규칙 LRRRRRLLR — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule LRRRRRLLR, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-lrrrrrllr-7q",
+    "lang": "python",
+    "combo": "금융과 단위 환산|simulation|실시간 60fps 목표",
+    "kind": "simulation",
+    "source": "fallback",
+    "verified": true
   }
 ]
