@@ -23,16 +23,17 @@ Claude 가 그 조합에 맞는 프로젝트를 설계·구현하면,
 |---|---|
 | `generator/idea-space.mjs` | 카드 덱. 20 × 12 × 16 = 3840 조합 |
 | `generator/pick.mjs` | 오늘의 카드를 뽑는다 (API 호출 없음) |
+| `generator/generate.mjs` | Claude API 로 그날의 프로젝트를 설계·구현 |
 | `generator/verify.mjs` | 생성물을 실제로 실행해 본다 |
-| `scripts/ship-mac.sh` | repo 생성 · 푸시 · 인덱스 갱신 · Discord |
-| `generator/generate.mjs` | (Actions 백업 경로) Claude API 로 생성 |
-| `generator/fallback.mjs` | (Actions 백업 경로) API 가 죽었을 때 |
+| `generator/fallback.mjs` | API 가 죽어도 잔디는 안 끊긴다 |
+| `generator/publish.mjs` | repo 생성 · 푸시 · 인덱스 갱신 |
+| `generator/connectors.mjs` | Discord / Slack / Notion / 웹훅 알림 |
+| `scripts/ship-mac.sh` | (수동 경로) 맥에서 올릴 때 쓰는 스크립트 |
 
-## 왜 맥에서 도나
+## 어떻게 도나
 
-클라우드 세션은 GitHub API 가 정책으로 막혀 있다. 그래서 코드를 쓰는 일은
-클라우드에서, repo 를 만들고 푸시하는 일은 맥에서 한다. `scripts/ship-mac.sh`
-가 맥 쪽 절반을 전부 맡는다.
+`.github/workflows/daily.yml` 이 매일 KST 09:10 에 GitHub 러너에서 돈다.
+아침 실행이 실패하면 22:10 에 한 번 더 시도하고, 이미 오늘치가 있으면 건너뛴다.
 
 ---
 
