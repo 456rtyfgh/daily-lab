@@ -40,7 +40,7 @@ export async function publish({ dry = process.env.DRY_RUN === '1' } = {}) {
   const { spec, combo, date, source, dir } = await generate();
 
   console.log('검증 중...');
-  const problems = await verifyProject(dir, combo.lang);
+  const problems = await verifyProject(dir, spec.lang || combo.lang);
   if (problems.length) {
     console.error('생성물이 검증을 통과하지 못했다:\n' + problems.map((p) => '  - ' + p).join('\n'));
     if (process.env.STRICT === '1') throw new Error('STRICT 모드: 중단');

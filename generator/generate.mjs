@@ -122,13 +122,15 @@ ${spec.why_interesting}
 
 ## 어떻게 만들어졌나
 
-이 프로젝트는 매일 자동으로 뽑히는 세 장의 카드로 설계됐다.
+${spec._fallback
+  ? `모델을 쓸 수 없을 때 도는 오프라인 생성기가 만들었다. 파라미터는 날짜에서 결정론적으로 뽑힌다 — ${spec._note}.`
+  : `이 프로젝트는 매일 자동으로 뽑히는 세 장의 카드로 설계됐다.
 
 | 카드 | 값 |
 |---|---|
 | 소재 | ${combo.domain} |
 | 형태 | ${combo.artifact.kind} |
-| 제약 | ${combo.constraint} |
+| 제약 | ${combo.constraint} |`}
 
 ## 실행
 

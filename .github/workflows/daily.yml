@@ -3,10 +3,13 @@ name: daily project
 # 매일 하나씩 미니 프로젝트를 만들어 새 repo 로 올린다.
 # GitHub 러너에서 돌기 때문에 맥이 꺼져 있어도 상관없다.
 #
-# 필요한 Secrets:
-#   ANTHROPIC_API_KEY  프로젝트를 설계·구현할 모델 호출용
-#   GH_PAT             repo 생성 권한이 있는 토큰 (Administration + Contents + Workflows)
-#   DISCORD_WEBHOOK    (선택) 알림
+# Secrets:
+#   GH_PAT             repo 생성 권한이 있는 토큰 (Administration + Contents + Workflows) — 필수
+#   DISCORD_WEBHOOK    알림 — 선택
+#   ANTHROPIC_API_KEY  선택. 넣으면 모델이 그날의 카드(소재 × 형태 × 제약)를 해석해
+#                      매번 새로운 프로젝트를 설계한다. 없으면 오프라인 생성기가
+#                      네 갈래(세포 자동자 / 랭턴의 개미 / 미로 / 울람 나선) 중
+#                      날짜에 따라 하나를 골라 만든다. 어느 쪽이든 잔디는 끊기지 않는다.
 
 on:
   schedule:
@@ -16,6 +19,10 @@ on:
     inputs:
       dry_run:
         description: '푸시 없이 생성만'
+        type: boolean
+        default: false
+      force:
+        description: '오늘 이미 만들었어도 강행'
         type: boolean
         default: false
 
@@ -46,7 +53,9 @@ jobs:
         run: |
           TODAY=$(TZ=Asia/Seoul date +%F)
           echo "today=$TODAY" >> "$GITHUB_OUTPUT"
-          if node -e "const h=require('./data/history.json');process.exit(h.some(x=>x.date===process.argv[1])?0:1)" "$TODAY"; then
+          if [ "${{ inputs.force }}" = "true" ]; then
+            echo "done=false" >> "$GITHUB_OUTPUT"
+          elif node -e "const h=require('./data/history.json');process.exit(h.some(x=>x.date===process.argv[1])?0:1)" "$TODAY"; then
             echo "done=true" >> "$GITHUB_OUTPUT"
             echo ":white_check_mark: $TODAY 는 이미 만들었다. 건너뛴다." >> "$GITHUB_STEP_SUMMARY"
           else
