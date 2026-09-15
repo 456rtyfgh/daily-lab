@@ -22,5 +22,17 @@
     "kind": "simulation",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-09-15",
+    "slug": "maze-28x21-72r",
+    "title": "28×21 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-28x21-72r",
+    "lang": "javascript",
+    "combo": "게임 규칙|algorithm|에러 메시지가 사람 말로 친절하게",
+    "kind": "algorithm",
+    "source": "fallback",
+    "verified": true
   }
 ]
