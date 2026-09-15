@@ -34,5 +34,17 @@
     "kind": "algorithm",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-09-16",
+    "slug": "ulam-spiral-101-4qi",
+    "title": "울람 나선 101×101 — 소수는 흩어지지 않는다",
+    "pitch": "Interactive Ulam spiral: integers in a square spiral, primes marked. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ulam-spiral-101-4qi",
+    "lang": "javascript",
+    "combo": "음식과 레시피|benchmark|이모지 없이 흑백만",
+    "kind": "benchmark",
+    "source": "fallback",
+    "verified": true
   }
 ]

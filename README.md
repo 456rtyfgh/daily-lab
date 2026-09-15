@@ -7,14 +7,15 @@ Claude 가 그 조합에 맞는 프로젝트를 설계·구현하면,
 문법 검사와 실제 실행을 통과한 것만 새 repo 로 올라간다.
 
 ```
-3개 · 2026-09-14 ~ 2026-09-15
-`cli` 1 · `simulation` 1 · `algorithm` 1
+4개 · 2026-09-14 ~ 2026-09-16
+`cli` 1 · `simulation` 1 · `algorithm` 1 · `benchmark` 1
 ```
 
 ## 기록
 
 | 날짜 | 프로젝트 | 형태 | 언어 |
 |---|---|---|---|
+| 2026-09-16 | [울람 나선 101×101 — 소수는 흩어지지 않는다](https://github.com/456rtyfgh/ulam-spiral-101-4qi) | `benchmark` | javascript |
 | 2026-09-15 | [28×21 미로 — 만들고, 푼다](https://github.com/456rtyfgh/maze-28x21-72r) | `algorithm` | javascript |
 | 2026-09-14 | [개미 규칙 LRRRRRLLR — 튜밋 격자](https://github.com/456rtyfgh/ant-lrrrrrllr-7q) | `simulation` | python |
 | 2026-09-14 | [세 몸이 그리는 8자 — ASCII N-body 시뮬레이터](https://github.com/456rtyfgh/verlet-orbits-ascii) | `cli` | javascript |
