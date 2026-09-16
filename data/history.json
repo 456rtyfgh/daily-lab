@@ -46,5 +46,17 @@
     "kind": "benchmark",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-09-17",
+    "slug": "rule-18-echo",
+    "title": "Rule 18 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 18, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-18-echo",
+    "lang": "javascript",
+    "combo": "숫자와 수열|library|에러 메시지가 사람 말로 친절하게",
+    "kind": "library",
+    "source": "fallback",
+    "verified": true
   }
 ]
