@@ -58,5 +58,17 @@
     "kind": "library",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-09-18",
+    "slug": "ant-rl-13",
+    "title": "개미 규칙 RL — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule RL, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-rl-13",
+    "lang": "python",
+    "combo": "색과 빛|simulation|핵심 로직 100줄 이하",
+    "kind": "simulation",
+    "source": "fallback",
+    "verified": true
   }
 ]
