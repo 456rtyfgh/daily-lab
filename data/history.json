@@ -82,5 +82,17 @@
     "kind": "benchmark",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-09-20",
+    "slug": "maze-36x12-4h1",
+    "title": "36×12 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-36x12-4h1",
+    "lang": "javascript",
+    "combo": "금융과 단위 환산|benchmark|에러 메시지가 사람 말로 친절하게",
+    "kind": "benchmark",
+    "source": "fallback",
+    "verified": true
   }
 ]
