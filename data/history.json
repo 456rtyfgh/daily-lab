@@ -106,5 +106,17 @@
     "kind": "simulation",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-09-22",
+    "slug": "rule-102-echo",
+    "title": "Rule 102 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 102, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-102-echo",
+    "lang": "python",
+    "combo": "색과 빛|benchmark|실시간 60fps 목표",
+    "kind": "benchmark",
+    "source": "fallback",
+    "verified": true
   }
 ]
