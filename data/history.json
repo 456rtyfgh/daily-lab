@@ -130,5 +130,17 @@
     "kind": "visualizer",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-09-24",
+    "slug": "maze-28x12-2t2",
+    "title": "28×12 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-28x12-2t2",
+    "lang": "python",
+    "combo": "시간과 달력|generator|에러 메시지가 사람 말로 친절하게",
+    "kind": "generator",
+    "source": "fallback",
+    "verified": true
   }
 ]
