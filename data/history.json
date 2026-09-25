@@ -154,5 +154,17 @@
     "kind": "simulation",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-09-26",
+    "slug": "rule-146-rule",
+    "title": "Rule 146 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 146, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-146-rule",
+    "lang": "javascript",
+    "combo": "정렬과 탐색|library|재귀 없이 구현",
+    "kind": "library",
+    "source": "fallback",
+    "verified": true
   }
 ]
