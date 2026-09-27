@@ -178,5 +178,17 @@
     "kind": "benchmark",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-09-28",
+    "slug": "maze-20x15-153",
+    "title": "20×15 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-20x15-153",
+    "lang": "javascript",
+    "combo": "천문과 우주|generator|메모리 O(1)",
+    "kind": "generator",
+    "source": "fallback",
+    "verified": true
   }
 ]
