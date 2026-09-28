@@ -190,5 +190,17 @@
     "kind": "generator",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-09-29",
+    "slug": "ant-lrrrrrllr-8b",
+    "title": "개미 규칙 LRRRRRLLR — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule LRRRRRLLR, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-lrrrrrllr-8b",
+    "lang": "javascript",
+    "combo": "숫자와 수열|library|외부 의존성 0개",
+    "kind": "library",
+    "source": "fallback",
+    "verified": true
   }
 ]
