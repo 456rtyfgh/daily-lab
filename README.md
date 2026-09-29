@@ -7,14 +7,15 @@ Claude 가 그 조합에 맞는 프로젝트를 설계·구현하면,
 문법 검사와 실제 실행을 통과한 것만 새 repo 로 올라간다.
 
 ```
-17개 · 2026-09-14 ~ 2026-09-29
-`benchmark` 5 · `simulation` 4 · `library` 3 · `generator` 2 · `cli` 1 · `algorithm` 1 · `visualizer` 1
+18개 · 2026-09-14 ~ 2026-09-30
+`benchmark` 5 · `simulation` 4 · `library` 3 · `generator` 2 · `cli` 1 · `algorithm` 1 · `visualizer` 1 · `data-art` 1
 ```
 
 ## 기록
 
 | 날짜 | 프로젝트 | 형태 | 언어 |
 |---|---|---|---|
+| 2026-09-30 | [울람 나선 201×201 — 소수는 흩어지지 않는다](https://github.com/456rtyfgh/ulam-spiral-201-39b) | `data-art` | html |
 | 2026-09-29 | [개미 규칙 LRRRRRLLR — 튜밋 격자](https://github.com/456rtyfgh/ant-lrrrrrllr-8b) | `library` | javascript |
 | 2026-09-28 | [20×15 미로 — 만들고, 푼다](https://github.com/456rtyfgh/maze-20x15-153) | `generator` | javascript |
 | 2026-09-27 | [울람 나선 151×151 — 소수는 흩어지지 않는다](https://github.com/456rtyfgh/ulam-spiral-151-gt) | `benchmark` | python |
