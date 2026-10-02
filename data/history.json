@@ -238,5 +238,17 @@
     "kind": "visualizer",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-03",
+    "slug": "ulam-spiral-101-53t",
+    "title": "울람 나선 101×101 — 소수는 흩어지지 않는다",
+    "pitch": "Interactive Ulam spiral: integers in a square spiral, primes marked. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ulam-spiral-101-53t",
+    "lang": "python",
+    "combo": "정렬과 탐색|generator|순수 함수만 사용",
+    "kind": "generator",
+    "source": "fallback",
+    "verified": true
   }
 ]
