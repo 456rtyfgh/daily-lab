@@ -250,5 +250,17 @@
     "kind": "generator",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-04",
+    "slug": "maze-36x21-5s3",
+    "title": "36×21 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-36x21-5s3",
+    "lang": "python",
+    "combo": "음식과 레시피|benchmark|입력 없이 결정론적으로 동작",
+    "kind": "benchmark",
+    "source": "fallback",
+    "verified": true
   }
 ]
