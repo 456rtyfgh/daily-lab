@@ -262,5 +262,17 @@
     "kind": "benchmark",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-05",
+    "slug": "ant-rl-13-261005",
+    "title": "개미 규칙 RL — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule RL, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-rl-13-261005",
+    "lang": "html",
+    "combo": "음식과 레시피|visualizer|핵심 로직 100줄 이하",
+    "kind": "visualizer",
+    "source": "fallback",
+    "verified": true
   }
 ]
