@@ -286,5 +286,17 @@
     "kind": "benchmark",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-07",
+    "slug": "ulam-spiral-301-3fu",
+    "title": "울람 나선 301×301 — 소수는 흩어지지 않는다",
+    "pitch": "Interactive Ulam spiral: integers in a square spiral, primes marked. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ulam-spiral-301-3fu",
+    "lang": "html",
+    "combo": "게임 규칙|web-toy|단일 파일",
+    "kind": "web-toy",
+    "source": "fallback",
+    "verified": true
   }
 ]
