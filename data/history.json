@@ -274,5 +274,17 @@
     "kind": "visualizer",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-06",
+    "slug": "rule-82-rule",
+    "title": "Rule 82 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 82, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-82-rule",
+    "lang": "python",
+    "combo": "이미지 픽셀|benchmark|메모리 O(1)",
+    "kind": "benchmark",
+    "source": "fallback",
+    "verified": true
   }
 ]
