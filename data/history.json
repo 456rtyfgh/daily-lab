@@ -298,5 +298,17 @@
     "kind": "web-toy",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-08",
+    "slug": "maze-28x9-444",
+    "title": "28×9 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-28x9-444",
+    "lang": "python",
+    "combo": "파일과 포맷|algorithm|외부 의존성 0개",
+    "kind": "algorithm",
+    "source": "fallback",
+    "verified": true
   }
 ]
