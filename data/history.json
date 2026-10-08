@@ -310,5 +310,17 @@
     "kind": "algorithm",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-09",
+    "slug": "ant-lrrrrrllr-hc",
+    "title": "개미 규칙 LRRRRRLLR — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule LRRRRRLLR, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-lrrrrrllr-hc",
+    "lang": "python",
+    "combo": "숫자와 수열|simulation|설정 가능한 시드 하나로 전체 결과가 결정됨",
+    "kind": "simulation",
+    "source": "fallback",
+    "verified": true
   }
 ]
