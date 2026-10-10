@@ -334,5 +334,17 @@
     "kind": "visualizer",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-11",
+    "slug": "rule-60-rule",
+    "title": "Rule 60 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 60, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-60-rule",
+    "lang": "python",
+    "combo": "물리 시뮬레이션|parser|한 줄씩 스트리밍 출력",
+    "kind": "parser",
+    "source": "fallback",
+    "verified": true
   }
 ]
