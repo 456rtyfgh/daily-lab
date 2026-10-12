@@ -358,5 +358,17 @@
     "kind": "data-art",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "maze-20x18-vk",
+    "title": "20×18 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-20x18-vk",
+    "lang": "html",
+    "combo": "숫자와 수열|game|실시간 60fps 목표",
+    "kind": "game",
+    "source": "fallback",
+    "verified": true
   }
 ]
