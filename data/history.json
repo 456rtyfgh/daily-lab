@@ -370,5 +370,17 @@
     "kind": "game",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-14",
+    "slug": "ulam-spiral-151-7a",
+    "title": "울람 나선 151×151 — 소수는 흩어지지 않는다",
+    "pitch": "Interactive Ulam spiral: integers in a square spiral, primes marked. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ulam-spiral-151-7a",
+    "lang": "python",
+    "combo": "파일과 포맷|puzzle-solver|재귀 없이 구현",
+    "kind": "puzzle-solver",
+    "source": "fallback",
+    "verified": true
   }
 ]
