@@ -382,5 +382,17 @@
     "kind": "puzzle-solver",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-15",
+    "slug": "rule-190-echo",
+    "title": "Rule 190 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 190, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-190-echo",
+    "lang": "html",
+    "combo": "천문과 우주|data-art|한 줄씩 스트리밍 출력",
+    "kind": "data-art",
+    "source": "fallback",
+    "verified": true
   }
 ]
