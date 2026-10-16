@@ -406,5 +406,17 @@
     "kind": "puzzle-solver",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-17",
+    "slug": "maze-28x18-2jj",
+    "title": "28×18 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-28x18-2jj",
+    "lang": "python",
+    "combo": "생물과 성장 패턴|cli|테스트가 구현보다 길어야 함",
+    "kind": "cli",
+    "source": "fallback",
+    "verified": true
   }
 ]
