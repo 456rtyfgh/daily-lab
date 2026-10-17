@@ -418,5 +418,17 @@
     "kind": "cli",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-18",
+    "slug": "ulam-spiral-201-1v9",
+    "title": "울람 나선 201×201 — 소수는 흩어지지 않는다",
+    "pitch": "Interactive Ulam spiral: integers in a square spiral, primes marked. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ulam-spiral-201-1v9",
+    "lang": "javascript",
+    "combo": "음식과 레시피|cli|순수 함수만 사용",
+    "kind": "cli",
+    "source": "fallback",
+    "verified": true
   }
 ]
