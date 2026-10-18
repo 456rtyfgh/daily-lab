@@ -430,5 +430,17 @@
     "kind": "cli",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-19",
+    "slug": "rule-149-rule",
+    "title": "Rule 149 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 149, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-149-rule",
+    "lang": "html",
+    "combo": "확률과 무작위|web-toy|외부 의존성 0개",
+    "kind": "web-toy",
+    "source": "fallback",
+    "verified": true
   }
 ]
