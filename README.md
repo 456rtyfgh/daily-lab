@@ -7,14 +7,15 @@ Claude 가 그 조합에 맞는 프로젝트를 설계·구현하면,
 문법 검사와 실제 실행을 통과한 것만 새 repo 로 올라간다.
 
 ```
-37개 · 2026-09-14 ~ 2026-10-19
-`benchmark` 7 · `simulation` 5 · `visualizer` 4 · `cli` 3 · `library` 3 · `generator` 3 · `data-art` 3 · `algorithm` 2 · `parser` 2 · `web-toy` 2 · `puzzle-solver` 2 · `game` 1
+38개 · 2026-09-14 ~ 2026-10-20
+`benchmark` 8 · `simulation` 5 · `visualizer` 4 · `cli` 3 · `library` 3 · `generator` 3 · `data-art` 3 · `algorithm` 2 · `parser` 2 · `web-toy` 2 · `puzzle-solver` 2 · `game` 1
 ```
 
 ## 기록
 
 | 날짜 | 프로젝트 | 형태 | 언어 |
 |---|---|---|---|
+| 2026-10-20 | [Rule 30 — 1차원 세포 자동자](https://github.com/456rtyfgh/rule-30-rule) | `benchmark` | python |
 | 2026-10-19 | [Rule 149 — 1차원 세포 자동자](https://github.com/456rtyfgh/rule-149-rule) | `web-toy` | html |
 | 2026-10-18 | [울람 나선 201×201 — 소수는 흩어지지 않는다](https://github.com/456rtyfgh/ulam-spiral-201-1v9) | `cli` | javascript |
 | 2026-10-17 | [28×18 미로 — 만들고, 푼다](https://github.com/456rtyfgh/maze-28x18-2jj) | `cli` | python |

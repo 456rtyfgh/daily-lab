@@ -442,5 +442,17 @@
     "kind": "web-toy",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-20",
+    "slug": "rule-30-rule",
+    "title": "Rule 30 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 30, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-30-rule",
+    "lang": "python",
+    "combo": "텍스트와 언어|benchmark|에러 메시지가 사람 말로 친절하게",
+    "kind": "benchmark",
+    "source": "fallback",
+    "verified": true
   }
 ]
