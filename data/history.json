@@ -466,5 +466,17 @@
     "kind": "web-toy",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-22",
+    "slug": "maze-20x21-2x",
+    "title": "20×21 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-20x21-2x",
+    "lang": "html",
+    "combo": "이미지 픽셀|data-art|실시간 60fps 목표",
+    "kind": "data-art",
+    "source": "fallback",
+    "verified": true
   }
 ]
