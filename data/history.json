@@ -478,5 +478,17 @@
     "kind": "data-art",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-23",
+    "slug": "ant-rl-2h",
+    "title": "개미 규칙 RL — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule RL, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-rl-2h",
+    "lang": "javascript",
+    "combo": "확률과 무작위|puzzle-solver|한 줄씩 스트리밍 출력",
+    "kind": "puzzle-solver",
+    "source": "fallback",
+    "verified": true
   }
 ]
