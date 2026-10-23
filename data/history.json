@@ -490,5 +490,17 @@
     "kind": "puzzle-solver",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-24",
+    "slug": "rule-167-echo",
+    "title": "Rule 167 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 167, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-167-echo",
+    "lang": "html",
+    "combo": "파일과 포맷|game|설정 가능한 시드 하나로 전체 결과가 결정됨",
+    "kind": "game",
+    "source": "fallback",
+    "verified": true
   }
 ]
