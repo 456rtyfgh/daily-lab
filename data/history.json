@@ -502,5 +502,17 @@
     "kind": "game",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-25",
+    "slug": "ulam-spiral-101-73o",
+    "title": "울람 나선 101×101 — 소수는 흩어지지 않는다",
+    "pitch": "Interactive Ulam spiral: integers in a square spiral, primes marked. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ulam-spiral-101-73o",
+    "lang": "javascript",
+    "combo": "확률과 무작위|parser|이모지 없이 흑백만",
+    "kind": "parser",
+    "source": "fallback",
+    "verified": true
   }
 ]
