@@ -514,5 +514,17 @@
     "kind": "parser",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-26",
+    "slug": "maze-28x21-1qw",
+    "title": "28×21 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-28x21-1qw",
+    "lang": "html",
+    "combo": "이미지 픽셀|web-toy|이모지 없이 흑백만",
+    "kind": "web-toy",
+    "source": "fallback",
+    "verified": true
   }
 ]
