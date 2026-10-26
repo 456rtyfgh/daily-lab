@@ -526,5 +526,17 @@
     "kind": "web-toy",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-27",
+    "slug": "ant-lrrrrrllr-dx",
+    "title": "개미 규칙 LRRRRRLLR — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule LRRRRRLLR, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-lrrrrrllr-dx",
+    "lang": "html",
+    "combo": "음식과 레시피|web-toy|재귀 없이 구현",
+    "kind": "web-toy",
+    "source": "fallback",
+    "verified": true
   }
 ]
