@@ -550,5 +550,17 @@
     "kind": "web-toy",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-29",
+    "slug": "ulam-spiral-201-23r",
+    "title": "울람 나선 201×201 — 소수는 흩어지지 않는다",
+    "pitch": "Interactive Ulam spiral: integers in a square spiral, primes marked. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ulam-spiral-201-23r",
+    "lang": "javascript",
+    "combo": "암호와 인코딩|library|입력 없이 결정론적으로 동작",
+    "kind": "library",
+    "source": "fallback",
+    "verified": true
   }
 ]
