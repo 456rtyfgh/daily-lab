@@ -574,5 +574,17 @@
     "kind": "simulation",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-10-31",
+    "slug": "maze-28x15-os",
+    "title": "28×15 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-28x15-os",
+    "lang": "html",
+    "combo": "정렬과 탐색|data-art|실시간 60fps 목표",
+    "kind": "data-art",
+    "source": "fallback",
+    "verified": true
   }
 ]
