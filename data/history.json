@@ -598,5 +598,17 @@
     "kind": "puzzle-solver",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-02",
+    "slug": "ant-lrrrrrllr-oz",
+    "title": "개미 규칙 LRRRRRLLR — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule LRRRRRLLR, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-lrrrrrllr-oz",
+    "lang": "python",
+    "combo": "텍스트와 언어|generator|메모리 O(1)",
+    "kind": "generator",
+    "source": "fallback",
+    "verified": true
   }
 ]
