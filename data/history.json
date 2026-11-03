@@ -622,5 +622,17 @@
     "kind": "simulation",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-04",
+    "slug": "ulam-spiral-251-6tp",
+    "title": "울람 나선 251×251 — 소수는 흩어지지 않는다",
+    "pitch": "Interactive Ulam spiral: integers in a square spiral, primes marked. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ulam-spiral-251-6tp",
+    "lang": "html",
+    "combo": "확률과 무작위|visualizer|출력이 전부 ASCII 아트",
+    "kind": "visualizer",
+    "source": "fallback",
+    "verified": true
   }
 ]
