@@ -7,14 +7,15 @@ Claude 가 그 조합에 맞는 프로젝트를 설계·구현하면,
 문법 검사와 실제 실행을 통과한 것만 새 repo 로 올라간다.
 
 ```
-53개 · 2026-09-14 ~ 2026-11-04
-`benchmark` 8 · `simulation` 7 · `web-toy` 6 · `visualizer` 5 · `data-art` 5 · `library` 4 · `generator` 4 · `puzzle-solver` 4 · `cli` 3 · `parser` 3 · `algorithm` 2 · `game` 2
+54개 · 2026-09-14 ~ 2026-11-05
+`benchmark` 8 · `simulation` 7 · `web-toy` 6 · `visualizer` 5 · `data-art` 5 · `cli` 4 · `library` 4 · `generator` 4 · `puzzle-solver` 4 · `parser` 3 · `algorithm` 2 · `game` 2
 ```
 
 ## 기록
 
 | 날짜 | 프로젝트 | 형태 | 언어 |
 |---|---|---|---|
+| 2026-11-05 | [Rule 102 — 1차원 세포 자동자](https://github.com/456rtyfgh/rule-102-rule) | `cli` | python |
 | 2026-11-04 | [울람 나선 251×251 — 소수는 흩어지지 않는다](https://github.com/456rtyfgh/ulam-spiral-251-6tp) | `visualizer` | html |
 | 2026-11-03 | [36×12 미로 — 만들고, 푼다](https://github.com/456rtyfgh/maze-36x12-34w) | `simulation` | javascript |
 | 2026-11-02 | [개미 규칙 LRRRRRLLR — 튜밋 격자](https://github.com/456rtyfgh/ant-lrrrrrllr-oz) | `generator` | python |

@@ -634,5 +634,17 @@
     "kind": "visualizer",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-05",
+    "slug": "rule-102-rule",
+    "title": "Rule 102 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 102, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-102-rule",
+    "lang": "python",
+    "combo": "색과 빛|cli|모든 값이 정수",
+    "kind": "cli",
+    "source": "fallback",
+    "verified": true
   }
 ]
