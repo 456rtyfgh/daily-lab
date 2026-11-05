@@ -646,5 +646,17 @@
     "kind": "cli",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-06",
+    "slug": "ant-rl-dj",
+    "title": "개미 규칙 RL — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule RL, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-rl-dj",
+    "lang": "python",
+    "combo": "소리와 리듬|cli|실시간 60fps 목표",
+    "kind": "cli",
+    "source": "fallback",
+    "verified": true
   }
 ]
