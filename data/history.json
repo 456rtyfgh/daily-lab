@@ -658,5 +658,17 @@
     "kind": "cli",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-07",
+    "slug": "maze-28x12-1gx",
+    "title": "28×12 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-28x12-1gx",
+    "lang": "javascript",
+    "combo": "이미지 픽셀|library|외부 의존성 0개",
+    "kind": "library",
+    "source": "fallback",
+    "verified": true
   }
 ]
