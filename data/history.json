@@ -694,5 +694,17 @@
     "kind": "generator",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-10",
+    "slug": "maze-20x21-42n",
+    "title": "20×21 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-20x21-42n",
+    "lang": "javascript",
+    "combo": "음식과 레시피|parser|핵심 로직 100줄 이하",
+    "kind": "parser",
+    "source": "fallback",
+    "verified": true
   }
 ]
