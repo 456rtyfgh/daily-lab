@@ -706,5 +706,17 @@
     "kind": "parser",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-11",
+    "slug": "ant-rl-hr",
+    "title": "개미 규칙 RL — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule RL, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-rl-hr",
+    "lang": "javascript",
+    "combo": "정렬과 탐색|generator|테스트가 구현보다 길어야 함",
+    "kind": "generator",
+    "source": "fallback",
+    "verified": true
   }
 ]
