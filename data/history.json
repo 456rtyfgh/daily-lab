@@ -718,5 +718,17 @@
     "kind": "generator",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-12",
+    "slug": "rule-18-rule",
+    "title": "Rule 18 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 18, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-18-rule",
+    "lang": "html",
+    "combo": "물리 시뮬레이션|visualizer|이모지 없이 흑백만",
+    "kind": "visualizer",
+    "source": "fallback",
+    "verified": true
   }
 ]
