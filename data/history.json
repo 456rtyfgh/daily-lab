@@ -742,5 +742,17 @@
     "kind": "game",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-14",
+    "slug": "maze-28x21-5qm",
+    "title": "28×21 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-28x21-5qm",
+    "lang": "python",
+    "combo": "파일과 포맷|puzzle-solver|실시간 60fps 목표",
+    "kind": "puzzle-solver",
+    "source": "fallback",
+    "verified": true
   }
 ]
