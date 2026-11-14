@@ -754,5 +754,17 @@
     "kind": "puzzle-solver",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-15",
+    "slug": "ant-lrrrrrllr-1i",
+    "title": "개미 규칙 LRRRRRLLR — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule LRRRRRLLR, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-lrrrrrllr-1i",
+    "lang": "python",
+    "combo": "게임 규칙|parser|모든 값이 정수",
+    "kind": "parser",
+    "source": "fallback",
+    "verified": true
   }
 ]
