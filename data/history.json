@@ -766,5 +766,17 @@
     "kind": "parser",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-16",
+    "slug": "rule-154-echo",
+    "title": "Rule 154 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 154, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-154-echo",
+    "lang": "html",
+    "combo": "그래프와 네트워크|visualizer|에러 메시지가 사람 말로 친절하게",
+    "kind": "visualizer",
+    "source": "fallback",
+    "verified": true
   }
 ]
