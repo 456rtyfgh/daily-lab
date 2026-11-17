@@ -790,5 +790,17 @@
     "kind": "cli",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-18",
+    "slug": "maze-36x18-7el",
+    "title": "36×18 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-36x18-7el",
+    "lang": "javascript",
+    "combo": "파일과 포맷|cli|실시간 60fps 목표",
+    "kind": "cli",
+    "source": "fallback",
+    "verified": true
   }
 ]
