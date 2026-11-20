@@ -826,5 +826,17 @@
     "kind": "cli",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-21",
+    "slug": "maze-28x18-3i7",
+    "title": "28×18 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-28x18-3i7",
+    "lang": "python",
+    "combo": "기억과 학습|cli|테스트가 구현보다 길어야 함",
+    "kind": "cli",
+    "source": "fallback",
+    "verified": true
   }
 ]
