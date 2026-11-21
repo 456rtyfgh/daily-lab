@@ -838,5 +838,17 @@
     "kind": "cli",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-22",
+    "slug": "ulam-spiral-301-15y",
+    "title": "울람 나선 301×301 — 소수는 흩어지지 않는다",
+    "pitch": "Interactive Ulam spiral: integers in a square spiral, primes marked. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ulam-spiral-301-15y",
+    "lang": "python",
+    "combo": "생물과 성장 패턴|library|설정 가능한 시드 하나로 전체 결과가 결정됨",
+    "kind": "library",
+    "source": "fallback",
+    "verified": true
   }
 ]
