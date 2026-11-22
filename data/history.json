@@ -850,5 +850,17 @@
     "kind": "library",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-23",
+    "slug": "rule-22-echo",
+    "title": "Rule 22 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 22, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-22-echo",
+    "lang": "html",
+    "combo": "천문과 우주|web-toy|핵심 로직 100줄 이하",
+    "kind": "web-toy",
+    "source": "fallback",
+    "verified": true
   }
 ]
