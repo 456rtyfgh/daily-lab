@@ -874,5 +874,17 @@
     "kind": "web-toy",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-25",
+    "slug": "maze-20x18-1u8",
+    "title": "20×18 미로 — 만들고, 푼다",
+    "pitch": "Seeded maze generation (randomized DFS) with a BFS shortest-path solve, in ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/maze-20x18-1u8",
+    "lang": "python",
+    "combo": "금융과 단위 환산|cli|한 줄씩 스트리밍 출력",
+    "kind": "cli",
+    "source": "fallback",
+    "verified": true
   }
 ]
