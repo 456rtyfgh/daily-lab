@@ -862,5 +862,17 @@
     "kind": "web-toy",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-24",
+    "slug": "ant-rl-1d",
+    "title": "개미 규칙 RL — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule RL, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-rl-1d",
+    "lang": "html",
+    "combo": "게임 규칙|web-toy|핵심 로직 100줄 이하",
+    "kind": "web-toy",
+    "source": "fallback",
+    "verified": true
   }
 ]
