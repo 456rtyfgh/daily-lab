@@ -7,14 +7,15 @@ Claude 가 그 조합에 맞는 프로젝트를 설계·구현하면,
 문법 검사와 실제 실행을 통과한 것만 새 repo 로 올라간다.
 
 ```
-74개 · 2026-09-14 ~ 2026-11-25
-`cli` 10 · `simulation` 8 · `benchmark` 8 · `web-toy` 8 · `visualizer` 7 · `library` 6 · `generator` 6 · `puzzle-solver` 6 · `data-art` 5 · `parser` 5 · `game` 3 · `algorithm` 2
+75개 · 2026-09-14 ~ 2026-11-26
+`cli` 10 · `simulation` 9 · `benchmark` 8 · `web-toy` 8 · `visualizer` 7 · `library` 6 · `generator` 6 · `puzzle-solver` 6 · `data-art` 5 · `parser` 5 · `game` 3 · `algorithm` 2
 ```
 
 ## 기록
 
 | 날짜 | 프로젝트 | 형태 | 언어 |
 |---|---|---|---|
+| 2026-11-26 | [울람 나선 251×251 — 소수는 흩어지지 않는다](https://github.com/456rtyfgh/ulam-spiral-251-770) | `simulation` | javascript |
 | 2026-11-25 | [20×18 미로 — 만들고, 푼다](https://github.com/456rtyfgh/maze-20x18-1u8) | `cli` | python |
 | 2026-11-24 | [개미 규칙 RL — 튜밋 격자](https://github.com/456rtyfgh/ant-rl-1d) | `web-toy` | html |
 | 2026-11-23 | [Rule 22 — 1차원 세포 자동자](https://github.com/456rtyfgh/rule-22-echo) | `web-toy` | html |
@@ -74,7 +75,6 @@ Claude 가 그 조합에 맞는 프로젝트를 설계·구현하면,
 | 2026-09-30 | [울람 나선 201×201 — 소수는 흩어지지 않는다](https://github.com/456rtyfgh/ulam-spiral-201-39b) | `data-art` | html |
 | 2026-09-29 | [개미 규칙 LRRRRRLLR — 튜밋 격자](https://github.com/456rtyfgh/ant-lrrrrrllr-8b) | `library` | javascript |
 | 2026-09-28 | [20×15 미로 — 만들고, 푼다](https://github.com/456rtyfgh/maze-20x15-153) | `generator` | javascript |
-| 2026-09-27 | [울람 나선 151×151 — 소수는 흩어지지 않는다](https://github.com/456rtyfgh/ulam-spiral-151-gt) | `benchmark` | python |
 
 > 전체 기록은 [`data/history.json`](data/history.json)에 있다.
 

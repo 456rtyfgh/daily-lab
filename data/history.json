@@ -886,5 +886,17 @@
     "kind": "cli",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-26",
+    "slug": "ulam-spiral-251-770",
+    "title": "울람 나선 251×251 — 소수는 흩어지지 않는다",
+    "pitch": "Interactive Ulam spiral: integers in a square spiral, primes marked. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ulam-spiral-251-770",
+    "lang": "javascript",
+    "combo": "천문과 우주|simulation|재귀 없이 구현",
+    "kind": "simulation",
+    "source": "fallback",
+    "verified": true
   }
 ]
