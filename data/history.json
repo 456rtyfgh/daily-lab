@@ -898,5 +898,17 @@
     "kind": "simulation",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-27",
+    "slug": "rule-149-rule-261127",
+    "title": "Rule 149 — 1차원 세포 자동자",
+    "pitch": "Elementary cellular automaton rule 149, rendered as an ASCII strip. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/rule-149-rule-261127",
+    "lang": "html",
+    "combo": "암호와 인코딩|game|테스트가 구현보다 길어야 함",
+    "kind": "game",
+    "source": "fallback",
+    "verified": true
   }
 ]
