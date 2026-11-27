@@ -910,5 +910,17 @@
     "kind": "game",
     "source": "fallback",
     "verified": true
+  },
+  {
+    "date": "2026-11-28",
+    "slug": "ant-lrrrrrllr-gr",
+    "title": "개미 규칙 LRRRRRLLR — 튜밋 격자",
+    "pitch": "Generalized Langton's ant (turmite) rule LRRRRRLLR, drawn as ASCII. Zero dependencies.",
+    "url": "https://github.com/456rtyfgh/ant-lrrrrrllr-gr",
+    "lang": "python",
+    "combo": "시간과 달력|algorithm|출력이 전부 ASCII 아트",
+    "kind": "algorithm",
+    "source": "fallback",
+    "verified": true
   }
 ]
